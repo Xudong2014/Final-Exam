@@ -1,0 +1,14 @@
+title a hypothetical student information system
+Ohio University->Student: Typying your ID and password
+Student->Student:Take placement
+Student->Class A:You are in the CS2400
+Student->Class B:You are in the CS2401
+Student->Class C:You are in the CS2402
+Class A->Class B:Go to next CS class level
+Class B->Class C:Go to next CS class level
+Class A->Class A:You fail in this class
+Class B->Class B:You fail in this class
+Class C->Class C:You fail in this class
+Class A->Ohio University:Your grade
+Class B->Ohio University:Your grade
+Class C->Ohio University:Your grade
